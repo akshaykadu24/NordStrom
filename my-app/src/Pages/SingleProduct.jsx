@@ -13,7 +13,7 @@ const SingleProduct = () => {
     const [img, setImg] = useState(location.state.images[0])
     const sizes = ['XS', 'S', 'M', 'L', 'XL', 'XXL']
 
-    console.log(location.state.images[0])
+    // console.log(location.state.images[0])
 
 
     return (

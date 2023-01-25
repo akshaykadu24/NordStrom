@@ -68,9 +68,11 @@ const Home = () => {
   }
 
 
-  useEffect(()=>{
-    getProductsData(dispatch)
-  },[])
+  useEffect(() => {
+    if(Products.length ==0){
+      dispatch(getProductsData())
+    }
+  }, [])
 
 
 

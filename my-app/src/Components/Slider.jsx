@@ -15,7 +15,7 @@ import { useRef } from 'react';
 import { colorBlue, colorPink, colorRed, filtMen, filtWomen, sizeM, sizeS } from '../Pages/Products';
 import FilterProductsButtons from './Products/filterProductsButtons';
 
-function Sliderr({ filtMen, filtWomen, sizeS, sizeM, colorBlue, colorRed, colorPink, setData }) {
+function Sliderr({ filtMen, filtWomen,filtBoys,filtGirls, sizeS, sizeM,sizeL, sizeXL, sizeXXL, colorBlue, colorRed, colorPink, colorBlack, colorGreen, colorYellow, setData }) {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const btnRef = useRef()
 
@@ -37,7 +37,7 @@ function Sliderr({ filtMen, filtWomen, sizeS, sizeM, colorBlue, colorRed, colorP
 
                     <DrawerBody>
                         <Box w={"100%"}>
-                            <FilterProductsButtons onClose={onClose} filtMen={filtMen} filtWomen={filtWomen} sizeS={sizeS} sizeM={sizeM} colorBlue={colorBlue} colorRed={colorRed} colorPink={colorPink} setData={setData} />
+                            <FilterProductsButtons onClose={onClose} filtMen={filtMen} filtWomen={filtWomen}filtBoys={filtBoys} filtGirls={filtGirls} sizeS={sizeS} sizeM={sizeM} sizeL={sizeL} sizeXL={sizeXL} sizeXXL={sizeXXL} colorBlue={colorBlue} colorRed={colorRed} colorPink={colorPink} colorBlack={colorBlack} colorGreen={colorGreen} colorYellow={colorYellow} setData={setData} />
 
                         </Box>
 

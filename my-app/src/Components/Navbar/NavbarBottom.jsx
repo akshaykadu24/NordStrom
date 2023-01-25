@@ -79,7 +79,7 @@ const NavbarBottom = () => {
                 menubar_dispatcher({ type: "none" });
               }}
             >
-              <Link to={"/"}>{el}</Link>
+              <Link to={"/products"}>{el}</Link>
               {state && <Menubar component={state} />}
             </li>
           ))}

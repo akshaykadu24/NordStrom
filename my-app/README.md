@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+#  NordStrom  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app is a e-commerce website for fashion and lifestyle products of Mens and Womens and a user can buy the Products from this app.
 
-## Available Scripts
+## Deployed link of project
+- <a href="https://nord-ecommerce-website.netlify.app/">NordStrom</a>
 
-In the project directory, you can run:
+## Team Members
 
-### `npm start`
+<ul>
+  <li><a href="https://github.com/akshaykadu24">Akshay Kadu</a></li>
+  <li><a href="https://github.com/Kashif-Rezwi">Kashif Rezwi</a></li>
+  <li><a href="https://github.com/nsalunkhe">Niranjan Salunkhe</a></li>
+  <li><a href="https://github.com/mukeshsahu1997">Mukesh Sahu</a></li>
+  <li><a href="https://github.com/shubham-matoliya">Shubham Matoliya</a></li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployment
 
-### `npm test`
+On frontend terminal perform:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+ Open my-app folder in terminal
+  npm install
+  install all dependancies which you will suggest
+  npm start
+```
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Tech Stack
+- React
+- Redux
+- Javascript
+- HTML
+- CSS
+- Chakra UI
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Functionality
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Login/Signup
+- Authentication
+- Admin page to add new Product
+- filter product with different categories link mens,womens,color,size
+- changes images of same product on clicking 
+- adding ,removing updating product from Cart functionality 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Website flow for User
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Home page
 
-## Learn More
+- login to app
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- admin for add item to the app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- products page for diffeerent style,solors size products
 
-### Code Splitting
+- Product detail on single Product page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- adding product to cart 
 
-### Analyzing the Bundle Size
+- checkout page for payment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### Website Presentation :
+![nordstrom-webite](/spiteful-bed-9674/my-app/src/Components/images/Screenshot%20(240).png)
 
-### Deployment
+![nordstrom-webite](/spiteful-bed-9674/my-app/src/Components/images/Screenshot%20(241).png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![nordstrom-webite](/spiteful-bed-9674/my-app/src/Components/images/Screenshot%20(242).png)
 
-### `npm run build` fails to minify
+![nordstrom-webite](/spiteful-bed-9674/my-app/src/Components/images/Screenshot%20(243).png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![nordstrom-webite](/spiteful-bed-9674/my-app/src/Components/images/Screenshot%20(244).png)
+
+![nordstrom-webite](/spiteful-bed-9674/my-app/src/Components/images/Screenshot%20(247).png)
+
+![nordstrom-webite](/spiteful-bed-9674/my-app/src/Components/images/Screenshot%20(248).png)
+## Thank you note
+Thank you all who is giving precious time to visit our little creative project which is made with lot of efforts.
+
+_<p align="center"><sub>- Readme file designed by <a href="https://github.com/akshaykadu24">Akshay Kadu</a> -</sub></p>_
